@@ -83,4 +83,34 @@ a[atribute~="igualacion-exacta"] { /* Selector de atributo igualación exacta */
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-/* = = = = = = = = = = = = = = = = = = = = = = = = */
+/* = = = = = = = = = EEJERCICIOS DEL 11 AL 15 ==================*/
+a[atribute^="fa"]{
+    background: rgb(255, 0, 55); 
+    color:rgb(206, 220, 224);
+    font-family: fantasy;
+    font-size: 25px;
+}
+a[atribute$="ok"]{
+    background: rgba(13, 47, 75, 0.925); 
+    color:rgb(102, 236, 174);
+    font-family: fantasy;
+    font-size: 25px;
+}
+a[atribute*="ola"]{
+    background: rgba(68, 16, 163, 0.925); 
+    color:rgb(138, 207, 209);
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+h6[class="aqui"] [data-tony*="y"]{
+    background-color: brown;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+a:visited{
+    background: rgb(6, 214, 134);
+    color: rgb(255, 0, 34);
+    /*Se aplica a todos los <a>*/
+}
